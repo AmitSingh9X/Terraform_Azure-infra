@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform variable files (optional)
+*.auto.tfvars
+
+# Sensitive files
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Keep provider lock file
+!.terraform.lock.hcl
