@@ -113,21 +113,9 @@ infracost breakdown --path=.
 <img width="900" alt="Infracost" src="images/infracost.png">
 ## 🏗️ Architecture
 
-```text
-                    Internet
-                        │
-                  Public IP
-                        │
-               Network Interface
-                        │
-                  Linux Virtual Machine
-                        │
-                     Subnet
-                        │
-                 Virtual Network
-                        │
-                 Resource Group
-```
+<p align="center">
+  <img src="images/architecture.png" alt="Terraform Azure Infrastructure Architecture" width="900">
+</p>
 ## 🧰 Tools Used
 
 | Tool | Version / Purpose |
