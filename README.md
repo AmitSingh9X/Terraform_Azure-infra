@@ -1,8 +1,12 @@
 # 🚀 Terraform Azure Infrastructure
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 Deploy Azure Infrastructure on Microsoft Azure using Terraform reusable modules.
 
 ## 📌 Project Overview
+
 This project provisions Azure infrastructure using reusable Terraform modules. It follows a modular folder structure and is designed for learning Infrastructure as Code (IaC) and Azure cloud deployment.
 ## ✨ Features
 
@@ -90,43 +94,22 @@ gitleaks dir .
 ```bash
 infracost breakdown --path=.
 ```
+## ☁️ Azure Resources Created
+
+- Resource Group
+- Virtual Network (VNet)
+- Subnet
+- Public IP
+- Network Interface (NIC)
+- Linux Virtual Machine
 ## 📸 Project Screenshots
 
 Project screenshots will be added after infrastructure deployment and validation.
-
-### TFLint
-
-<img width="900" alt="TFLint" src="images/tflint.png">
-
-### tfsec
-
-<img width="900" alt="tfsec" src="images/tfsec.png">
-
-### Gitleaks
-
-<img width="900" alt="Gitleaks" src="images/gitleaks.png">
-
-### Infracost
-
-<img width="900" alt="Infracost" src="images/infracost.png">
 ## 🏗️ Architecture
 
 <p align="center">
   <img src="images/architecture.png" alt="Terraform Azure Infrastructure Architecture" width="900">
 </p>
-## 🧰 Tools Used
-
-| Tool | Version / Purpose |
-|------|-------------------|
-| Terraform | Infrastructure as Code |
-| Azure CLI | Azure Resource Management |
-| Git | Version Control |
-| GitHub | Source Code Hosting |
-| Visual Studio Code | IDE |
-| TFLint | Terraform Linting |
-| tfsec | Terraform Security Scanner |
-| Gitleaks | Secret Scanner |
-| Infracost | Infrastructure Cost Estimation |
 ## 🔄 Deployment Workflow
 
 ```text
@@ -177,13 +160,17 @@ This project helped me gain hands-on experience in:
 - Azure Kubernetes Service (AKS)
 - GitHub Actions CI/CD
 - Azure DevOps Pipeline
+- Remote Backend (Azure Storage Account)
+- Terraform Workspaces
+- Azure Monitor
+- Azure Log Analytics
 ## 👨‍💻 Author
 
 **Amit Singh**
 
 DevOps & Cloud Engineer
 
-GitHub: https://github.com/AmitSingh9X
+GitHub: [AmitSingh9X](https://github.com/AmitSingh9X)
 ## 📄 License
 
-This project is created for learning and demonstration purposes.
+This project is intended for learning, demonstration, and portfolio purposes.
