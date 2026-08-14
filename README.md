@@ -92,9 +92,7 @@ infracost breakdown --path=.
 ```
 ## 📸 Project Screenshots
 
-### Terraform Validate
-
-<img width="900" alt="Terraform Validate" src="images/terraform-validate.png">
+Project screenshots will be added after infrastructure deployment and validation.
 
 ### TFLint
 
